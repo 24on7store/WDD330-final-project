@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WDD330 Final Project | English Placement Test Web App</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- <main>
+        <h1> Boost Your  English Skills</h1>
+        <p> Take the placement test to improve your <br>
+            vocabulary and track your progress_all in all.
+        </p>
+        <button id="startQuizBtn"> Start the Quiz 
+        </button>
+    </main> -->
+
+    <!-- HEADER-->
+    <header>
+        <div id="logo">
+            <img class="malogo" src="images/logo3.png" alt="logo of the page">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quiz.html">Take the Quiz</a>
+            <a href="results.html">Results</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION-->
+            <!-- <div class="hero-image">
+            <img src="/reading3.png" alt="Image of a person reading">
+            </div> -->
+
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="images/reading5.png" alt="Image of a person reading" class="hero-img">
+        </div>
+
+        <div class="hero-text">
+            <h1>Boost Your <br>English Skills</h1>
+            <p>Take the placement test to improve 
+                vocabulary and track your progress, just all in all.
+            </p>
+            <a href="quiz.html" class="startQuizBtn">Start Quiz</a>
+            
+            <!-- <button>
+                <a href="quiz.html" class="startQuizBtn">Start Quiz</a>
+            </button> -->
+        </div>
+
+        <!-- <div class="hero-image">
+            <img src="images/reading3.png" alt="Image of a person reading">
+        </div> -->
+    </section>
+    <hr class="thick-line">
+
+    <!--FEATURES SECTION-->
+    <section class="features">
+        <div class="feature-card">
+            <img src="images/icon1.png" alt="Picture of the quiz">
+            <h3>Take a 1-100 Quiz</h3>
+        </div>
+
+        <div class="feature-card">
+            <img src="images/icon2.png" alt="Picture of the quiz">
+            <h3>View your level A1 - C1 & Score</h3>
+        </div>
+
+        <div class="feature-card">
+            <img src="images/icon3.png" alt="Picture of the quiz">
+            <h3>Review Difficult Words</h3>
+        </div>
+
+    </section>
+    
+</body>
+</html>
+
+
+
+
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+    padding-left: 50px;
+    background-color: #000;
+    border-bottom: 1px solid #333;
+    width: auto;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    word-spacing: 0.8rem;
+    position: relative;
+    right: 100px;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin: 0 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+/* nav a:hover{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    word-spacing: 0.8rem;
+    position: relative;
+    right: 100px;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin: 0 20px;
+    font-weight: 100;
+    text-decoration: underline;
+    line-height: 50px;
+    height: 200px;
+
+    width: 20px;
+}
+
+nav a:after{
+    height: 20px;
+    color: blue;
+    line-height: 200px;
+} */
+/* header img{
+    width: 500px;
+    border-radius: 50%;
+} */
+
+.malogo {
+
+    width: 100px;
+    height: 80px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20%; 
+    
+    
+}
+
+.hero h1{
+    font-size: 70px;
+    align-items: center;
+    text-align: center;
+    line-height: 4rem;
+    color: goldenrod;
+}
+.hero p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.8rem;
+    color: ghostwhite;
+    word-spacing: 0.5rem;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+.hero h1, .hero p{
+    text-align: 1rem;
+}
+
+
+/* .hero img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    right: 500px;
+    width: 100%;
+} */
+/* Taking of how the image will display*/
+.hero-image img {
+           /* Adjust depending on how big you want it */
+    width: 350px;
+    height: auto;
+    max-width: 100%;
+    /* position: relative;
+    right: -400px; */
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+}
+
+.hero-image img {
+    background-size: cover;
+    background-color: silver;
+    background-position: center;
+    border: 3px solid goldenrod;
+}
+
+
+.hero-text {
+    max-width: 100%;
+}
+
+
+.startQuizBtn {
+    justify-content: center;
+    place-items: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: goldenrod;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border:3px red;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    
+}
+.startQuizBtn:hover {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: silver;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border:3px red;
+    position: relative;
+    top: 50px;
+    
+}
+
+
+/* The line  */
+.thick-line {
+
+    border: none;
+    height: 1px;        /* thickness */
+    background: #333;   /* color */
+    margin: 1px auto;     /* spacing */
+    width: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+
+
+
+/*Feature*/
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+    text-align: center;
+}
+
+.feature-card img {
+    width: 120px;
+    height:auto;
+} 
+
+.feature-card h3 {
+    position: relative;
+    bottom: 25px;
+    width: 120px;
+    
+} 
+
+
+/* ----------------Page 2, Take the quiz-----------------*/
+
+.quiz-container{
+    justify-content: center;
+    padding: 60px 30%;
+}
+.quiz-container h1 {
+    font-size: 70px;
+    color: goldenrod;
+}
+
+.quiz-container p{
+    font-size: 20px;
+}
+
+.quiz-container h1, p{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.btn {
+    position: relative;
+    left: 290px;
+    padding: 5px 30px;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    top: 50px;
+}
+.btn:hover {
+    position: relative;
+    left: 290px;
+    padding: 5px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    top: 50px;
+}
+/* ----------------Page 3, Your Results-----------------*/
+
+.results-container {
+    justify-content: center;
+    padding: 60px 30%;
+}
+
+
+.results-container h1{
+    font-size: 70px;
+    color: goldenrod;
+}
+.results-container p{
+    font-size: 20px;
+}
+
+.results-container h1, p{
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+/* -----------------MOBILE VIEW---------------- */
+@media (max-width: 768px) {
+    /*Hero Section*/
+    .hero-img img{
+        width: 5px;
+
+    }
+
+    .hero-text h1 {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+        color: silver;
+        margin-top: 10px;
+    }
+
+    .hero.text p{
+        font-size: 1.2rem;
+        padding: 0 20px;
+        margin: 15px 0;
+        line-height: 1.4rem;
+    }
+}
