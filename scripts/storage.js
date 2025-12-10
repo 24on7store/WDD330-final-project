@@ -10,6 +10,7 @@ window.loadLocalAnswers = function () {
   return saved ? JSON.parse(saved) : {};
 };
 
+
 // Clear saved answers
 window.clearLocalStorage = function () {
   localStorage.removeItem("userAnswers");

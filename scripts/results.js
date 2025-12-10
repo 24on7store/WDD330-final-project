@@ -14,3 +14,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Clear results so they don't show again automatically
   localStorage.removeItem("quizResults");
 });
+

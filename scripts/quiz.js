@@ -180,6 +180,7 @@ form && form.addEventListener("submit", (e) => {
     }
   }
 
+  
   // Scoring
   let score = 0;
   questions.forEach((q, i) => {

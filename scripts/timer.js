@@ -37,6 +37,7 @@
     time--;
   }
 
+  
   function startTimer(durationSeconds, onTick, onEnd, formSelector) {
     // allow override duration
     if (typeof durationSeconds === "number") {

@@ -98,3 +98,4 @@ searchBox.addEventListener("submit", async e => {
 soundBtn.addEventListener("click", () => {
     audio.play();
 });
+
