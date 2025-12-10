@@ -1,69 +1,180 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Take The Quiz</title>
+    <title>Take the Quiz</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
-<body>
+<body class="theme-auto">
     <!-- HEADER-->
     <header>
         <div id="logo">
-            <img class="malogo" src="images/logo3.png" alt="logo of the page">
+            <img class="malogo" src="images/logo3.png" alt="Picture of the logo">
         </div>
 
-
-
-        <!-------------Mobile 3-dots icon -------------->
-        <div class="menu-icon" id="menuIcon">
-            &#x22EE;
-        </div>
+        <div class="menu-icon" id="menuIcon">&#x22EE;</div>
         
-        <!--Desktop Navigation-->
         <nav class="desktop-nav">
             <a href="index.html">Home</a>
-            <a href="quiz.html">Take the Quiz</a>
+            <a href="quiz.html">Take The Quiz</a>
             <a href="results.html">Results</a>
         </nav>
 
-        <!--Mobile Navigation-->
         <nav class="mobile-nav" id="mobileNav">
             <a href="index.html">Home</a>
-            <a href="quiz.html">Take the Quiz</a>
+            <a href="quiz.html">Take The Quiz</a>
             <a href="results.html">Results</a>
         </nav>
     </header>
 
-        <section class="quiz-container">
-            <h1>English Placement Test</h1>
-            <p>Questions will appear here...</p>
-            
-            <div id="questions-box"></div>
-            <button class="btn">Next</button>
-        </section>
+    <!-- <main class="quiz-container">
+        <div class="quiz-header">
+            <div class="user-indicator">
+                <span id="usernameDisplay">Guest</span>
+            </div>
+            <div class="timer">
+                <span id="timerDisplay">120:00</span>
+            </div>
+            <button id="themeToggle" class="btn small">Theme</button>
+            <button id="soundToggle" class="btn small">Sound On</button>
+        </div> -->
+
+        <!--New codes -->
+        
+<section class="quiz">
+    <h2>Would You Like To Know Your Current English Level?</h2>
+    <p>Understanding your current English proficiency is the first step toward meaningful improvement.
+    Whether <br>you're a beginner or an advanced<br> learner,  our placement test is designed to give you a clear picture
+    of where you stand. <br>
+    By taking this short and simple test, You will receive personalized guidance on where to start,
+    what to focus on, and how to move forward efficiently in your language journey!</p>
+    <!-- <a href="test.html" class="quiz-btn">Take the Test</a> -->
+
+    <h3>If You Are Ready To Take The Placement Test, Click On Start Quiz!</h3>
+
+</section>
+
+<!---new codes------------------------------ -->
+<div class="test">
+    <label for="username">Your Name:</label>
+    <input type="text" id="username" name="username" placeholder="Your Full Name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email"/>
+
+    <label for="whatsapp">WhatsApp Number:</label>
+    <input type="tel" id="whatsapp" name="phone" placeholder="Your Phone Number " />
+
+    
+
+    <button id="start-btn">Start Quiz</button>
+
+    <p id="timer" style="display:none;"> Time left: 2:00:00</p>
+
+    <form id="quiz-form" style="display: none;">
+        <div id="questions-container"></div>
+        <div id="pagination"></div>
+        
+        <button id="submit" type="submit">Submit Quiz</button>
+    </form>
+
+</div>
 
 
-        <!-- <script>
-        const menuIcon = document.getElementById("menuIcon");
-        const mobileNav = document.getElementById("mobileNav");
-
-        menuIcon.addEventListener("click", () => {
-        if (mobileNav.style.display === "flex") {
-        mobileNav.style.display = "none";
-        } else {
-        mobileNav.style.display = "flex";
-        }
-        });
-        </script> -->
+<!------------------------------------------->
 
 
-    <!------------------All the scripts codes----------------->
-    <script src="scripts/ui.js"></script>
-    <script src="scripts/quiz.js"></script>
-    <script src="scripts/timer.js"></script>
-    <script src="scripts/storage.js"></script>
-    <script src="scripts/api.js"></script>
 
+
+    
+<!-- ---------------JavaScript for Toggle Menu------------ -->
+<script src="scripts/script.js"></script>
+
+
+
+
+        <!-- <section id="questionCard" class="question-card flip"> -->
+            <div class="container">
+          <h1>Dictionary</h1>
+          <form action="#" class="search-box" id="search-box">
+               <input type="text" name="search-input" id="search-input" placeholder="Search a word">
+               <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"/></svg>
+               </button>
+          </form>
+          <p class="errTxt"></p>
+          <div class="word-details">
+               <div class="word-info">
+                    <div class="word-name">
+                         <h2 id="word-txt">play</h2>
+                         <p>
+                              <span id="type-txt">noun </span>
+                              <span id="phonetic-txt">/pleɪ/</span>
+                         </p>
+                    </div>
+                    <button type="button" id="sound-btn">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path fill="currentColor" d="M12.031 1.063c-.321.001-.676.145-1 .468L5.312 8H1c-.551 0-1 .449-1 1v8c0 .551.449 1 1 1h4.313L11 24.438c1 1 2 .488 2-.875V2.28c0-.791-.433-1.222-.969-1.219zm7.25 2a1 1 0 0 0-.218 1.906A8.96 8.96 0 0 1 24 13c0 3.524-2 6.55-4.938 8.031a1 1 0 1 0 .875 1.782C23.53 21 26 17.288 26 13s-2.471-8-6.063-9.813a1 1 0 0 0-.562-.124a1 1 0 0 0-.094 0m-2.375 3.874a1 1 0 0 0-.406 1.875C18.043 9.771 19 11.29 19 13c0 1.722-.972 3.261-2.531 4.219a1 1 0 1 0 1.062 1.687C19.601 17.636 21 15.476 21 13c0-2.461-1.387-4.633-3.438-5.906A1 1 0 0 0 17 6.937a1 1 0 0 0-.094 0"/></svg>
+                    </button>
+               </div>
+               <p class="definition" id="definition-txt">Activity for amusement only, especially among the young.</p>
+               <div class="blockquote" id="example-elem">
+                    <h3>Examples</h3>
+                    <p>Children learn through play.</p>
+               </div>
+               <div class="blockquote" id="synonyms-elem">
+                    <h3>Synonyms</h3>
+                    <p>play</p>
+               </div>
+               <div class="blockquote" id="antonyms-elem">
+                    <h3>Antonyms</h3>
+                    <p>some word</p>
+               </div>     
+          </div>
+     </div>
+        <!-- </section> -->
+<!-- 
+        <section id="questionCard" class="question-card flip">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2 id="wordDisplay">Loading word…</h2>
+                    <p id="definitionDisplay">Fetching definition…</p>
+                    <ul id="choicesList" class="choices"></ul>
+                </div>
+                <div class="card-back">
+                    <p id="extraInfo">More info will appear here after answering.</p>
+                </div>
+            </div>
+        </section> -->
+<!-- 
+        <div class="quiz-controls">
+            <button id="nextBtn" class="btn primary">Next</button>
+            <button id="bookmarkBtn" class="btn">Bookmark Word</button>
+            <button id="endQuizBtn" class="btn danger">End Quiz</button>
+        </div>
+
+        <div class="progress">
+            <div id="progressBar" class="progress-bar"></div>
+            <span id="progressText">0 / 10</span>
+        </div>
+
+        <div id="statusMessage" class="status"></div> -->
+    </main>
+
+    
+
+       
 </body>
+<script src="scripts/storage.js"></script>
+<script src="scripts/timer.js"></script>
+<script src="scripts/quiz.js"></script>
+<script src="scripts/APIs.js"></script>
+
 </html>
+
+
+
+
+
+

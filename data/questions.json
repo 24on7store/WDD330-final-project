@@ -1,0 +1,577 @@
+{
+  "questions": [
+    {
+      "q": "What is your name?",
+      "a": "B) My name is Anna",
+      "options": [
+        "A) I name is Anna",
+        "B) My name is Anna",
+        "C) Me is Anna",
+        "D) I am name Anna"
+      ]
+    },
+
+      {
+    "q": "The witness recanted his ____ testimony.",
+    "options": ["A) prior", "B) primary", "C) priorly", "D) prioring"],
+    "a": "A) prior"
+  },
+  {
+    "q": "His explanation was so ____ that no one questioned it.",
+    "options": ["A) cogent", "B) cogitate", "C) cognitive", "D) cohesive"],
+    "a": "A) cogent"
+  },
+  {
+    "q": "They treated the issue with the utmost ____.",
+    "options": ["A) delicacy", "B) delicate", "C) delicateness", "D) delicates"],
+    "a": "A) delicacy"
+  },
+  {
+    "q": "She was a ____ of truth in a world of deception.",
+    "options": ["A) beacon", "B) bacon", "C) beaker", "D) break-in"],
+    "a": "A) beacon"
+  },
+  {
+    "q": "Gangs are ____ for any country.",
+    "options": ["A) detrimental", "B) determinative", "C) determined", "D) detained"],
+    "a": "A) detrimental"
+  },
+  {
+    "q": "He’s an ____ speaker; he rarely prepares notes.",
+    "options": ["A) impromptu", "B) impassioned", "C) extemporaneous", "D) extreme"],
+    "a": "C) extemporaneous"
+  },
+  {
+    "q": "The essay was marked by a ____ use of metaphor.",
+    "options": ["A) judicious", "B) judicial", "C) justice", "D) judgment"],
+    "a": "A) judicious"
+  },
+
+    {
+      "q": "She ___ a student.",
+      "a": "B) is",
+      "options": ["A) are", "B) is", "C) am", "D) be"]
+    },
+    {
+      "q": "I ___ from Brazil.",
+      "a": "A) am",
+      "options": ["A) am", "B) is", "C) are", "D) be"]
+    },
+    {
+      "q": "They ___ my friends.",
+      "a": "C) are",
+      "options": ["A) is", "B) am", "C) are", "D) be"]
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "a": "B) I live in Paris.",
+      "options": [
+        "A) I living in Paris.",
+        "B) I live in Paris.",
+        "C) I lives in Paris.",
+        "D) I am live in Paris."
+      ]
+    },
+    {
+      "q": "We ___ English every day.",
+      "a": "A) study",
+      "options": ["A) study", "B) studies", "C) studying", "D) studied"]
+    },
+    {
+      "q": "The cat is ___ the table.",
+      "a": "C) on",
+      "options": ["A) at", "B) in", "C) on", "D) for"]
+    },
+    {
+      "q": "What time is it? It's ___ 3 o’clock.",
+      "a": "D) nearly",
+      "options": ["A) late", "B) slow", "C) very", "D) nearly"]
+    },
+    {
+      "q": "He has ___ sister.",
+      "a": "A) a",
+      "options": ["A) a", "B) an", "C) the", "D) some"]
+    },
+    {
+      "q": "I like ___ apples.",
+      "a": "D) to eat",
+      "options": ["A) eat", "B) eating", "C) ate", "D) to eat"]
+    },
+    {
+      "q": "Choose the correct question:",
+      "a": "C) Where do you live?",
+      "options": [
+        "A) Where you live?",
+        "B) Where you are live?",
+        "C) Where do you live?",
+        "D) Where live you?"
+      ]
+    },
+    {
+      "q": "My father ___ coffee every morning.",
+      "a": "B) drinks",
+      "options": ["A) drink", "B) drinks", "C) drinking", "D) drank"]
+    },
+    {
+      "q": "We ___ at a restaurant now.",
+      "a": "A) are eating",
+      "options": ["A) are eating", "B) eat", "C) eating", "D) eats"]
+    },
+    {
+      "q": "This is my ___ car.",
+      "a": "C) new",
+      "options": ["A) news", "B) newly", "C) new", "D) newer"]
+    },
+    {
+      "q": "The opposite of 'big' is ___",
+      "a": "A) small",
+      "options": ["A) small", "B) tall", "C) long", "D) short"]
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "a": "D) She has two children.",
+      "options": [
+        "A) She have two children.",
+        "B) She having two children.",
+        "C) She has got two child.",
+        "D) She has two children."
+      ]
+    },
+    {
+      "q": "He ___ to school every day.",
+      "a": "B) goes",
+      "options": ["A) go", "B) goes", "C) going", "D) gone"]
+    },
+    {
+      "q": "I want ___ tea.",
+      "a": "C) some",
+      "options": ["A) any", "B) a", "C) some", "D) an"]
+    },
+    {
+      "q": "Where ___ you from?",
+      "a": "D) are",
+      "options": ["A) is", "B) am", "C) be", "D) are"]
+    },
+    {
+      "q": "How old ___ you?",
+      "a": "A) are",
+      "options": ["A) are", "B) is", "C) am", "D) be"]
+    },
+
+
+
+    {
+      "q": "I have lived here ___ five years.",
+      "a": "C) for",
+      "options": ["A) since", "B) in", "C) for", "D) at"]
+    },
+    {
+      "q": "She can't come because she is ___ a meeting.",
+      "a": "D) in",
+      "options": ["A) on", "B) at", "C) to", "D) in"]
+    },
+    {
+      "q": "I would like ___ coffee, please.",
+      "a": "A) some",
+      "options": ["A) some", "B) any", "C) a", "D) an"]
+    },
+    {
+      "q": "He is the ___ student in the class.",
+      "a": "D) best",
+      "options": ["A) good", "B) better", "C) well", "D) best"]
+    },
+    {
+      "q": "The weather is getting ___ today.",
+      "a": "B) hotter",
+      "options": ["A) hot", "B) hotter", "C) more hot", "D) most hot"]
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "a": "A) I’m looking for my keys.",
+      "options": [
+        "A) I’m looking for my keys.",
+        "B) I look for my keys now.",
+        "C) I am look my keys.",
+        "D) I looking my keys."
+      ]
+    },
+    {
+      "q": "She speaks English very ___.",
+      "a": "D) well",
+      "options": ["A) good", "B) best", "C) better", "D) well"]
+    },
+    {
+      "q": "Do you ___ any brothers or sisters?",
+      "a": "C) have",
+      "options": ["A) has", "B) having", "C) have", "D) had"]
+    },
+    {
+      "q": "I ___ my homework yesterday.",
+      "a": "B) finished",
+      "options": ["A) finish", "B) finished", "C) finishing", "D) finishes"]
+    },
+    {
+      "q": "We usually eat dinner ___ 7 PM.",
+      "a": "A) at",
+      "options": ["A) at", "B) on", "C) in", "D) to"]
+    },
+    {
+      "q": "My sister is ___ than me.",
+      "a": "C) older",
+      "options": ["A) old", "B) more old", "C) older", "D) oldest"]
+    },
+    {
+      "q": "He ___ to play football when he was a child.",
+      "a": "A) used",
+      "options": ["A) used", "B) use", "C) using", "D) uses"]
+    },
+    {
+      "q": "They ___ TV when I arrived.",
+      "a": "D) were watching",
+      "options": ["A) watched", "B) watch", "C) watching", "D) were watching"]
+    },
+    {
+      "q": "We have ___ apples left.",
+      "a": "B) a few",
+      "options": ["A) little", "B) a few", "C) much", "D) many"]
+    },
+    {
+      "q": "He is afraid ___ dogs.",
+      "a": "C) of",
+      "options": ["A) to", "B) in", "C) of", "D) at"]
+    },
+    {
+      "q": "I don’t know how ___ this machine.",
+      "a": "A) to use",
+      "options": ["A) to use", "B) use", "C) using", "D) used"]
+    },
+    {
+      "q": "This book is ___ interesting than that one.",
+      "a": "C) more",
+      "options": ["A) much", "B) most", "C) more", "D) many"]
+    },
+    {
+      "q": "She is the tallest ___ the three.",
+      "a": "D) of",
+      "options": ["A) in", "B) between", "C) among", "D) of"]
+    },
+    {
+      "q": "He arrived ___ the airport early.",
+      "a": "A) at",
+      "options": ["A) at", "B) in", "C) to", "D) on"]
+    },
+
+
+    {
+      "q": "If it rains, we ___ the picnic.",
+      "a": "C) will cancel",
+      "options": [
+        "A) cancel",
+        "B) cancelled",
+        "C) will cancel",
+        "D) cancels"
+      ]
+    },
+    {
+      "q": "She has worked here ___ 2019.",
+      "a": "A) since",
+      "options": ["A) since", "B) for", "C) from", "D) during"]
+    },
+    {
+      "q": "This is the restaurant ___ I met my wife.",
+      "a": "C) where",
+      "options": ["A) what", "B) which", "C) where", "D) when"]
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "a": "B) I haven’t finished my homework yet.",
+      "options": [
+        "A) I didn’t finished my homework yet.",
+        "B) I haven’t finished my homework yet.",
+        "C) I haven’t finish my homework yet.",
+        "D) I don’t finish my homework yet."
+      ]
+    },
+    {
+      "q": "I regret ___ him the truth.",
+      "a": "D) telling",
+      "options": ["A) tell", "B) to tell", "C) told", "D) telling"]
+    },
+    {
+      "q": "He asked me ___ I could help him.",
+      "a": "C) if",
+      "options": ["A) that", "B) what", "C) if", "D) which"]
+    },
+    {
+      "q": "The movie was ___ than I expected.",
+      "a": "A) better",
+      "options": ["A) better", "B) the best", "C) good", "D) more good"]
+    },
+    {
+      "q": "I was tired, ___ I went to bed early.",
+      "a": "D) so",
+      "options": ["A) but", "B) and", "C) because", "D) so"]
+    },
+    {
+      "q": "He promised ___ me later.",
+      "a": "B) to call",
+      "options": ["A) calling", "B) to call", "C) call", "D) called"]
+    },
+    {
+      "q": "We were late because there ___ an accident.",
+      "a": "C) had been",
+      "options": ["A) was", "B) is", "C) had been", "D) will be"]
+    },
+    {
+      "q": "She didn’t let me ___ the car.",
+      "a": "A) drive",
+      "options": ["A) drive", "B) to drive", "C) driving", "D) drove"]
+    },
+    {
+      "q": "You ___ smoke here. It's forbidden.",
+      "a": "B) mustn't",
+      "options": ["A) don’t have to", "B) mustn't", "C) shouldn’t", "D) can’t to"]
+    },
+    {
+      "q": "I will go unless it ___.",
+      "a": "D) rains",
+      "options": ["A) rain", "B) will rain", "C) raining", "D) rains"]
+    },
+    {
+      "q": "The book ___ by millions of people.",
+      "a": "C) was read",
+      "options": ["A) read", "B) reads", "C) was read", "D) reading"]
+    },
+    {
+      "q": "He eats ___ fruit than his brother.",
+      "a": "A) more",
+      "options": ["A) more", "B) most", "C) many", "D) much"]
+    },
+    {
+      "q": "I’d rather ___ at home today.",
+      "a": "D) stay",
+      "options": ["A) staying", "B) to stay", "C) stayed", "D) stay"]
+    },
+    {
+      "q": "They made me ___ the form again.",
+      "a": "C) complete",
+      "options": ["A) to complete", "B) completing", "C) complete", "D) completed"]
+    },
+    {
+      "q": "He was accused ___ stealing money.",
+      "a": "B) of",
+      "options": ["A) at", "B) of", "C) for", "D) to"]
+    },
+
+
+
+    {
+      "q": "If I ___ you, I would apply for the job.",
+      "a": "B) were",
+      "options": ["A) was", "B) were", "C) am", "D) be"]
+    },
+    {
+      "q": "She denied ___ the money.",
+      "a": "A) taking",
+      "options": ["A) taking", "B) take", "C) to take", "D) took"]
+    },
+    {
+      "q": "The meeting, ___ was very long, finally ended.",
+      "a": "D) which",
+      "options": ["A) who", "B) that", "C) whom", "D) which"]
+    },
+    {
+      "q": "Had I known, I ___ earlier.",
+      "a": "C) would have left",
+      "options": [
+        "A) leave",
+        "B) left",
+        "C) would have left",
+        "D) will leave"
+      ]
+    },
+    {
+      "q": "He arrived late, ___ surprised everyone.",
+      "a": "A) which",
+      "options": ["A) which", "B) what", "C) that", "D) where"]
+    },
+    {
+      "q": "Hardly had I sat down ___ the phone rang.",
+      "a": "D) when",
+      "options": ["A) that", "B) then", "C) than", "D) when"]
+    },
+    {
+      "q": "They insisted ___ paying the bill.",
+      "a": "C) on",
+      "options": ["A) for", "B) to", "C) on", "D) about"]
+    },
+    {
+      "q": "I wasn't used to ___ up so early.",
+      "a": "A) getting",
+      "options": ["A) getting", "B) get", "C) got", "D) to get"]
+    },
+    {
+      "q": "She came across as very ___ during the interview.",
+      "a": "D) confident",
+      "options": ["A) confidence", "B) confidently", "C) confidant", "D) confident"]
+    },
+    {
+      "q": "He was the only one ___ the problem.",
+      "a": "A) who solved",
+      "options": ["A) who solved", "B) solved", "C) solving", "D) having solved"]
+    },
+    {
+      "q": "He apologized ___ late.",
+      "a": "B) for being",
+      "options": ["A) to be", "B) for being", "C) about be", "D) being"]
+    },
+    {
+      "q": "This is the most exciting film I ___.",
+      "a": "A) have ever seen",
+      "options": [
+        "A) have ever seen",
+        "B) ever saw",
+        "C) had ever seen",
+        "D) see ever"
+      ]
+    },
+    {
+      "q": "I suggested that he ___ earlier.",
+      "a": "D) leave",
+      "options": ["A) leaves", "B) left", "C) to leave", "D) leave"]
+    },
+    {
+      "q": "She tends ___ too fast when nervous.",
+      "a": "C) to speak",
+      "options": ["A) speaking", "B) speak", "C) to speak", "D) spoke"]
+    },
+    {
+      "q": "They assumed him ___ guilty.",
+      "a": "B) to be",
+      "options": ["A) being", "B) to be", "C) to being", "D) be"]
+    },
+    {
+      "q": "She took up painting ___ relax.",
+      "a": "D) to",
+      "options": ["A) for", "B) in", "C) at", "D) to"]
+    },
+    {
+      "q": "No sooner had we arrived ___ it started snowing.",
+      "a": "A) than",
+      "options": ["A) than", "B) when", "C) then", "D) that"]
+    },
+
+
+
+    {
+      "q": "The manager demanded that the report ___ immediately.",
+      "a": "D) be completed",
+      "options": [
+        "A) is completed",
+        "B) was completed",
+        "C) to be completed",
+        "D) be completed"
+      ]
+    },
+    {
+      "q": "The film was so boring that I could barely keep ___.",
+      "a": "A) awake",
+      "options": ["A) awake", "B) awoken", "C) woken", "D) awaken"]
+    },
+    {
+      "q": "She would have passed the exam ___ she studied harder.",
+      "a": "C) had",
+      "options": ["A) unless", "B) if", "C) had", "D) provided"]
+    },
+    {
+      "q": "It is high time you ___ your room.",
+      "a": "B) cleaned",
+      "options": ["A) clean", "B) cleaned", "C) clean up", "D) cleaning"]
+    },
+    {
+      "q": "His speech was full of ___, making it hard to understand.",
+      "a": "A) ambiguity",
+      "options": ["A) ambiguity", "B) ambiguous", "C) ambivalent", "D) ambivalence"]
+    },
+    {
+      "q": "The results were far ___ satisfactory.",
+      "a": "D) from",
+      "options": ["A) of", "B) to", "C) in", "D) from"]
+    },
+    {
+      "q": "I regret ___ so harshly.",
+      "a": "C) speaking",
+      "options": ["A) speak", "B) to speak", "C) speaking", "D) spoken"]
+    },
+    {
+      "q": "He succeeded ___ all expectations.",
+      "a": "B) beyond",
+      "options": ["A) under", "B) beyond", "C) over", "D) above"]
+    },
+    {
+      "q": "She took the job, not ___ the salary was good, but for experience.",
+      "a": "A) because",
+      "options": ["A) because", "B) although", "C) since", "D) unless"]
+    },
+    {
+      "q": "There is no point ___ again.",
+      "a": "C) in trying",
+      "options": ["A) try", "B) to try", "C) in trying", "D) trying to"]
+    },
+    {
+      "q": "Had it not been for your help, I ___.",
+      "a": "D) would have failed",
+      "options": [
+        "A) will fail",
+        "B) had failed",
+        "C) would fail",
+        "D) would have failed"
+      ]
+    },
+    {
+      "q": "The plan was rejected due to its lack of ___ feasibility.",
+      "a": "A) practical",
+      "options": ["A) practical", "B) practicality", "C) practically", "D) practice"]
+    },
+    {
+      "q": "He is known for his ability to think ___.",
+      "a": "C) critically",
+      "options": ["A) critical", "B) critic", "C) critically", "D) criticized"]
+    },
+    {
+      "q": "Only after the experiment ___ meaningful data.",
+      "a": "D) was there",
+      "options": ["A) there was", "B) there is", "C) is there", "D) was there"]
+    },
+    {
+      "q": "The more you practice, the ___ you become.",
+      "a": "A) better",
+      "options": ["A) better", "B) best", "C) well", "D) good"]
+    },
+    {
+      "q": "Scarcely had the plane landed ___ passengers stood up.",
+      "a": "A) when",
+      "options": ["A) when", "B) than", "C) then", "D) that"]
+    },
+    {
+      "q": "Not only ___ the match, but he also scored two goals.",
+      "a": "C) did he win",
+      "options": [
+        "A) he won",
+        "B) he did win",
+        "C) did he win",
+        "D) won he"
+      ]
+    },
+    {
+      "q": "The findings were inconsistent, calling the theory ___ question.",
+      "a": "D) into",
+      "options": ["A) to", "B) up", "C) in", "D) into"]
+    },
+    {
+      "q": "It was essential that he ___ informed immediately.",
+      "a": "B) be",
+      "options": ["A) was", "B) be", "C) is", "D) being"]
+    }
+  ]
+}
